@@ -1,14 +1,31 @@
 .box{
     border:1px solid black;
     width: 500px;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
 }
 
 .item-img{
     width: 400px;
+
 }
 
 .main{
     display:flex;
     justify-content:center;
     
+}
+
+.win {
+    border : 10px solid;
+    color : green;
+}
+.lose {
+    border : 10px solid;
+    color : red;
+}
+.tie {
+    border : 10px solid;
+    color : black;
 }
